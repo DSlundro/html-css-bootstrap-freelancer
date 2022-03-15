@@ -1,0 +1,6 @@
+header    .row  {height: 100px;}
+.user           {background-color: var(--bs-teal);}
+.user      img  {width: 150px;}
+.portfolio img  {border-radius: 10px; }
+.about          {background-color: var(--bs-teal);}
+.contact        {height: 500px;}
