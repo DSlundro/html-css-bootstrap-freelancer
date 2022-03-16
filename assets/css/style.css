@@ -6,7 +6,8 @@
     --border-bottom: #CCCCCC;
 }
 *{transition: all .3s ease;}
-header,.copyright{background-color: var(--bg-dark);}
+header,
+.copyright      {background-color: var(--bg-dark);}
 .user,.about    {background-color: var(--bg-light-green);}
 footer          {background-color: var(--bg-footer-top);}
 .user      img  {width: 250px;}
