@@ -8,9 +8,18 @@
 
 header          {background-color: var(--bg-dark);}
 .user           {background-color: var(--bg-light-green);}
-.user      img  {width: 150px;}
+.user      img  {width: 250px;}
 .portfolio img  {border-radius: 10px; }
 .about          {background-color: var(--bg-light-green);}
 .contact        {height: 500px;}
 footer          {background-color: var(--bg-footer-top);}
 .copyright      {background-color: var(--bg-dark);}
+
+.l_row, .r_row{
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-radius: 5px;
+    width: 55px;
+    height: 0;
+    margin-top: 21px;
+}
