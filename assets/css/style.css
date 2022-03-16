@@ -19,7 +19,6 @@ footer          {background-color: var(--bg-footer-top);}
     border-top: 2px solid;
     border-bottom: 2px solid;
     border-radius: 5px;
-    width: 55px;
+    width: 15%;
     height: 0;
-    margin-top: 21px;
 }
