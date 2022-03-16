@@ -22,3 +22,5 @@ footer          {background-color: var(--bg-footer-top);}
     width: 15%;
     height: 0;
 }
+
+button{width: 150px;}
