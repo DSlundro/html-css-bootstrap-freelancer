@@ -6,14 +6,13 @@
     --border-bottom: #CCCCCC;
 }
 
-header          {background-color: var(--bg-dark);}
-.user           {background-color: var(--bg-light-green);}
+header,.copyright{background-color: var(--bg-dark);}
+.user,.about    {background-color: var(--bg-light-green);}
+footer          {background-color: var(--bg-footer-top);}
 .user      img  {width: 250px;}
 .portfolio img  {border-radius: 10px; }
-.about          {background-color: var(--bg-light-green);}
 .contact        {height: 500px;}
-footer          {background-color: var(--bg-footer-top);}
-.copyright      {background-color: var(--bg-dark);}
+
 
 .l_row, .r_row{
     border-top: 2px solid;
@@ -24,3 +23,8 @@ footer          {background-color: var(--bg-footer-top);}
 }
 
 button{width: 150px;}
+button[type="submit"]{
+    background-color: var(--bg-light-green);
+    width: 70px;
+    border: none;
+}
